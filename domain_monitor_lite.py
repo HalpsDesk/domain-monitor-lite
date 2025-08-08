@@ -63,7 +63,7 @@ def check_domain(domain):
                 matched_keyword = keyword
                 break
 
-        expiring_soon = days_to_expiry is not None and days_to_expiry <= 90
+        expiring_soon = days_to_expiry is not None and days_to_expiry <= 30
 
         if matched_keyword or expiring_soon:
             alert_message = f"⚠️ ALERT: {domain}\n"
