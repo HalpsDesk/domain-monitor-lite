@@ -55,4 +55,4 @@ cron
 
 ## Upgrade
 Want it to run automatically in the cloud, with Slack and Discord alerts included?
-Upgrade to the GitHub Actions Edition.
+Upgrade to the [GitHub Actions Edition](https://halpsdesk.gumroad.com/l/DomainMonitorGAE).
