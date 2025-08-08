@@ -4,7 +4,7 @@
 # Lite Edition of Domain Monitor
 # Local script — edit values below to configure
 #
-# Upgrade to GitHub Actions Edition: https://halpsdesk.gumroad.com/l/DomainMonitorGAE
+# Upgrade to GitHub Actions Edition: https://halpsdesk.gumroad.com/l/DomainMonitor
 
 import whois
 import time
@@ -83,12 +83,12 @@ def check_domain(domain):
 if __name__ == "__main__":
     print("==== Domain Monitor Lite Edition ====")
     print("Upgrade to GitHub Actions Edition for automated cloud checks:")
-    print("https://halpsdesk.gumroad.com/l/DomainMonitorGAE\n")
+    print("https://halpsdesk.gumroad.com/l/DomainMonitor\n")
 
     upgrade = input("Would you like to view the upgrade page now? (y/n): ").strip().lower()
     if upgrade == "y":
         import webbrowser
-        webbrowser.open("https://halpsdesk.gumroad.com/l/DomainMonitorGAE")
+        webbrowser.open("https://halpsdesk.gumroad.com/l/DomainMonitor")
 
     print("\nChecking domains...\n")
     for domain in DOMAINS:
