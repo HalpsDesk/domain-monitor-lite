@@ -88,7 +88,7 @@ if __name__ == "__main__":
     upgrade = input("Would you like to view the upgrade page now? (y/n): ").strip().lower()
     if upgrade == "y":
         import webbrowser
-        webbrowser.open("https://halpsdesk.gumroad.com/l/DomainMonitor")
+        webbrowser.open("https://halpsdesk.gumroad.com/l/DomainMonitor?option=3&_gl=1*1wh9avl*_ga*OTI4MjEzNzI4LjE3NTQ2ODY1ODk.*_ga_6LJN6D94N6*czE3NTQ2ODY1ODkkbzEkZzEkdDE3NTQ2ODkxNjMkajE0JGwwJGgw")
 
     print("\nChecking domains...\n")
     for domain in DOMAINS:
